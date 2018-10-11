@@ -13,6 +13,21 @@ header {
   width:100%;
 }
 
+ol.alpha {
+  list-style:lower-alpha;
+}
+div.example {
+
+  text-align:center;
+  display:grid;
+
+  grid-template-columns: 50% 50%;
+
+}
+
+div.example img {
+    width:80%;
+}
 footer {
   background-color: #cccccc;
 }
@@ -27,17 +42,4 @@ footer {
   }
   section {
   }
-  /***
-  section {
-    width:75%;
-    float:left;
-  }
-  aside {
-    width: 24%;
-    float:right;
-  }
-  footer {
-    clear:both;
-  }
-  ***/
 }
