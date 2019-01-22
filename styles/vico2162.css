@@ -3,14 +3,18 @@
   Put things here that you want to apply to EVERYTHING!!!
   ***/
 }
-
+body {
+  margin:0px;
+}
 header {
   backround-color: #cccccc;
   border-bottom: 1px solid black;
+  padding:0 10px;
 }
 
 #MainContent {
   width:100%;
+  padding:0px 10px;
 }
 
 ol.alpha {
@@ -30,6 +34,7 @@ div.example img {
 }
 footer {
   background-color: #cccccc;
+  padding: 10px;
 }
 
 
